@@ -1,15 +1,22 @@
 Velkommen til den første dag med ugeopgaver.
-Øvelserne skal afleveres inden dagen er omme. Man afleverer ved at indsætte et link til sit eget repository. 
-Et repository er som en mappe du har i skyen (GitHub) med din besvarelse i. Hver torsdag skal du starte med at lave et nyt repository til dagens besvarelse, og hver torsdag skal du aflevere linket til det nye repository.
-Hvis du ikke allerede har en, skal du i dag starte med at lave en GitHub konto og dernæst et repository til dagens aflevering (se Task 1).
+Øvelserne skal afleveres inden dagen er omme. Man afleverer ved at indsætte et link til sit eget repository.
+Besvarelserne skal laves individuelt, men I opfordres til at hjælpe hinanden.
 
-Det er lidt omstændigt første gang, men som alt andet her i livet - det bliver lettere når du har gjort det nogle gange.
-Alle opgaverne skal laves individuelt, men I opfordres til at hjælpe hinanden.
+## Indhold
+1. [Set-up til ugeopgaver](#set-up-til-ugeopgaver)
+2. [Variable Basics & Data Types](#variable-basics--data-types) (opg. 1-3)
+3. [Operators & Expressions](#operators--expressions) (opg. 4-10)
+4. [Navngivning](#navngivning) (opg. 11-15)
+5. [Refleksionsspørgsmål](#refleksionsspørgsmål)
+
 
 ## Set-up til ugeopgaver
 ### Opret et github repository
 
-**Opgave:**
+Et repository er som en mappe du har i skyen (GitHub) med din besvarelse i. Hver torsdag skal du starte med at lave et nyt repository til dagens besvarelse, og hver torsdag skal du aflevere linket til det nye repository.
+Hvis du ikke allerede har en, skal du i dag starte med at lave en GitHub konto og dernæst et repository til dagens aflevering.
+Det er lidt omstændigt første gang, men som alt andet her i livet - det bliver lettere når du har gjort det nogle gange.
+
 til at lægge dine øvelser i.
 
 1. Lav en bruger på https://github.com
@@ -40,13 +47,13 @@ Brug for hjælp til Github?
 
 ### Opret projekt med en klasse og en main metode
 
-**Opgave:**
-1. Start en nyt projekt. 
-2. Opret en folder med navnet 'src' i projektet
-3. Lav en klasse i src folderen. Du bestemmer navnet på klassen.
-4. Skriv en main metode i klassen.
+**Opgave:** 
+1. Opret en folder med navnet 'src' i projektet som du klonede ligefør
+2. Lav en klasse i src folderen. Du bestemmer navnet på klassen.
+3. Skriv en main metode i klassen.
 
 I det følgende skriver du al din kode i main metoden. Når du er færdig med en opgave kan du _udkommentere_ det hele og starte på den næste nedenunder.
+
 ```java 
 //opgave 1
 
@@ -55,7 +62,11 @@ I det følgende skriver du al din kode i main metoden. Når du er færdig med en
 */
 
 //opgave 2
+
+
 ```
+Alternativt kan du oprette en ny klasse med egen main metode til hver af de tre opgavekateorier (VariableBasics, Operators, Naming).
+Prøv dig frem og find ud af hvad der fungerer bedst for dig.
 
 ---
 
