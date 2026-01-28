@@ -373,21 +373,21 @@ Mindsk med 1 ved at bruge -- og udskriv.
 ---
 
 ## Navngivning
-
+ 
 ### Opgave 11: E-commerce product
 **Scenario:** Her ser du nogle værdier. De er hentet fra en webshop. Du skal give værdierne navne. 
 
 **Opgave:**
 Erklær og initialiser variable med GODE navne til:
 
-| Beskrivelse                                     | Værdi | Dit variabelnavn og værdi |
-|-------------------------------------------------|-------|---------------------------|
-| en ting der er til salg                         | "Laptop" | <input type="text" size="35"> |
-| hvad en kunde skal betale for en ting           | 7999.99 | <input type="text" size="35"> |
-| om der er flere tilbage af en ting              | true | <input type="text" size="35"> |
-| hvor mange de er tilbage af en ting             | 15 | <input type="text" size="35"> |
-| hvor mange procenter man får i rabat på en ting | 10.0 | <input type="text" size="35"> |
-| Hvilken kategori en ting tilhører               | "Electronics" | <input type="text" size="35"> |
+| Beskrivelse                                     | Værdi | Datatype og variabelnavn      |
+|-------------------------------------------------|-------|-------------------------------|
+| en ting der er til salg                         | "Laptop" |  |
+| hvad en kunde skal betale for en ting           | 7999.99 | ? |
+| om der er flere tilbage af en ting              | true | ? |
+| hvor mange de er tilbage af en ting             | 15 | ? |
+| hvor mange procenter man får i rabat på en ting | 10.0 | ? |
+| Hvilken kategori en ting tilhører               | "Electronics" | ? |
 
 <details>
 <summary>Se svar</summary>
@@ -410,13 +410,13 @@ String category = "Electronics";
 **Opgave:**
 Erklær og initialiser variable med GODE navne til:
 
-| Beskrivelse | Værdi | Dit variabelnavn og værdi |
+| Beskrivelse | Værdi | Datatype og variabelnavn  |
 |-------------|-------|---------------------------|
-| en elevs navn | "Anna" | <input type="text" size="35"> |
-| point fra en prøve | 85 | <input type="text" size="35"> |
-| point fra afleveringer | 92 | <input type="text" size="35"> |
-| den endelige karakter (gennemsnit) | 88.5 | <input type="text" size="35"> |
-| om eleven har bestået kurset | true | <input type="text" size="35"> |
+| en elevs navn | "Anna" | ? |
+| point fra en prøve | 85 | ? |
+| point fra afleveringer | 92 | ? |
+| den endelige karakter (gennemsnit) | 88.5 | ? |
+| om eleven har bestået kurset | true | ? |
 
 <details>
 <summary>Se svar</summary>
@@ -437,14 +437,14 @@ boolean passedCourse = true;
 **Opgave:**
 Erklær og initialiser variable med GODE navne til:
 
-| Beskrivelse | Værdi | Dit variabelnavn og værdi |
-|-------------|-------|---------------------------|
-| en gæsts navn | "Peter Hansen" | <input type="text" size="35"> |
-| hvilket værelse gæsten bor på | 204 | <input type="text" size="35"> |
-| hvor mange nætter gæsten skal bo | 3 | <input type="text" size="35"> |
-| hvad én overnatning koster | 899.00 | <input type="text" size="35"> |
-| om morgenmad er inkluderet | true | <input type="text" size="35"> |
-| hvad gæsten skal betale i alt | 2697.00 | <input type="text" size="35"> |
+| Beskrivelse | Værdi | Datatype og variabelnavn      |
+|-------------|-------|-------------------------------|
+| en gæsts navn | "Peter Hansen" | ? |
+| hvilket værelse gæsten bor på | 204 | ? |
+| hvor mange nætter gæsten skal bo | 3 | ? |
+| hvad én overnatning koster | 899.00 | ? |
+| om morgenmad er inkluderet | true | ? |
+| hvad gæsten skal betale i alt | 2697.00 | ? |
 
 <details>
 <summary>Se svar</summary>
@@ -466,13 +466,13 @@ double totalCost = 2697.00;
 **Opgave:**
 Erklær og initialiser variable med GODE navne til:
 
-| Beskrivelse | Værdi | Dit variabelnavn og værdi |
+| Beskrivelse | Værdi | Datatype og variabelnavn  |
 |-------------|-------|---------------------------|
-| hvor mange skridt man har gået i dag | 8547 | <input type="text" size="35"> |
-| hvor mange skridt man gerne vil gå | 10000 | <input type="text" size="35"> |
-| hvor langt man har gået i kilometer | 6.2 | <input type="text" size="35"> |
-| hvor mange kalorier man har forbrændt | 420 | <input type="text" size="35"> |
-| om man har nået sit mål | false | <input type="text" size="35"> |
+| hvor mange skridt man har gået i dag | 8547 | ? |
+| hvor mange skridt man gerne vil gå | 10000 | ? |
+| hvor langt man har gået i kilometer | 6.2 | ? |
+| hvor mange kalorier man har forbrændt | 420 | ? |
+| om man har nået sit mål | false | ? |
 
 <details>
 <summary>Se svar</summary>
@@ -493,18 +493,18 @@ boolean goalReached = false;
 **Opgave:**
 Erklær variable med PERFEKTE navne til at gemme:
 
-| Beskrivelse | Dit variabelnavn |
+| Beskrivelse | Datatype og variabelnavn  |
 |-------------|------------------|
-| en bogs titel | <input type="text" size="35"> |
-| forfatterens navn | <input type="text" size="35"> |
-| bogens ISBN-nummer | <input type="text" size="35"> |
-| hvor mange sider bogen har | <input type="text" size="35"> |
-| om bogen kan lånes lige nu | <input type="text" size="35"> |
-| hvem der har lånt bogen (hvis nogen) | <input type="text" size="35"> |
-| hvornår bogen skal afleveres | <input type="text" size="35"> |
-| hvor meget man skal betale i gebyr hvis bogen er forsinket | <input type="text" size="35"> |
-| om bogen er en bestseller | <input type="text" size="35"> |
-| bogens bedømmelse (fra 0.0 til 5.0) | <input type="text" size="35"> |
+| en bogs titel | ? |
+| forfatterens navn | ? |
+| bogens ISBN-nummer | ? |
+| hvor mange sider bogen har | ? |
+| om bogen kan lånes lige nu | ? |
+| hvem der har lånt bogen (hvis nogen) | ? |
+| hvornår bogen skal afleveres | ? |
+| hvor meget man skal betale i gebyr hvis bogen er forsinket | ? |
+| om bogen er en bestseller | ? |
+| bogens bedømmelse (fra 0.0 til 5.0) | ? |
 
 Fokuser på at vælge de BEDST mulige navne!
 
