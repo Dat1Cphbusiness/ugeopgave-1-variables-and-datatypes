@@ -45,7 +45,7 @@ Brug for hjælp til Github?
 ---
 
 
-### Opret projekt med en klasse og en main metode
+### Klar til kildekode
 
 **Opgave:** 
 1. Opret en folder med navnet 'src' i projektet som du klonede ligefør
