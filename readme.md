@@ -6,7 +6,8 @@ Hvis du ikke allerede har en, skal du i dag starte med at lave en GitHub konto o
 Det er lidt omstændigt første gang, men som alt andet her i livet - det bliver lettere når du har gjort det nogle gange.
 Alle opgaverne skal laves individuelt, men I opfordres til at hjælpe hinanden.
 
-## Opret et github repository
+## Set-up til ugeopgaver
+### Opret et github repository
 
 **Opgave:**
 til at lægge dine øvelser i.
@@ -34,9 +35,10 @@ Brug for hjælp til Github?
 - [getting started](https://docs.github.com/en/github/getting-started-with-github/create-a-repo)
 - [comitting](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/committing-and-reviewing-changes-to-your-project)
 
+---
 
 
-## Lav variable til Real-World Scenarios
+### Opret projekt med en klasse og en main metode
 
 **Opgave:**
 1. Start en nyt projekt. 
@@ -55,6 +57,9 @@ I det følgende skriver du al din kode i main metoden. Når du er færdig med en
 //opgave 2
 ```
 
+---
+
+## Variable Basics & Data Types
 
 ### Opgave 1: Shopping cart
 **Opgave:**
@@ -145,8 +150,10 @@ Udskriv den oprindelige pris, prisen efter rabat og den endelige pris.
 240.0
 300.0
 ```
-
+___
 ---
+
+##  Operators & Expressions
 
 ### Opgave 4: Party planning
 **Opgave:**
@@ -208,9 +215,6 @@ Hello, Anna! You are 25 years old.
 ```
 
 ---
-
-
-
 
 ### Opgave 6: Using +=
 **Opgave:**
@@ -355,25 +359,24 @@ Mindsk med 1 ved at bruge -- og udskriv.
 12
 ```
 
-
-
 ---
 
+## Navngivning
 
 ### Opgave 11: E-commerce product
-**Scenario:** Product information system
+**Scenario:** Her ser du nogle værdier. De er hentet fra en webshop. Du skal give værdierne navne. 
 
 **Opgave:**
 Erklær og initialiser variable med GODE navne til:
 
-| <!-- --> | Værdi | Dit variabelnavn og værdi |
-|----------|-------|---------------------------|
-| Product name | "Laptop" | <input type="text" size="35"> |
-| Product price | 7999.99 | <input type="text" size="35"> |
-| In stock | true | <input type="text" size="35"> |
-| Stock quantity | 15 | <input type="text" size="35"> |
-| Discount percent | 10.0 | <input type="text" size="35"> |
-| Category | "Electronics" | <input type="text" size="35"> |
+| Beskrivelse                                     | Værdi | Dit variabelnavn og værdi |
+|-------------------------------------------------|-------|---------------------------|
+| en ting der er til salg                         | "Laptop" | <input type="text" size="35"> |
+| hvad en kunde skal betale for en ting           | 7999.99 | <input type="text" size="35"> |
+| om der er flere tilbage af en ting              | true | <input type="text" size="35"> |
+| hvor mange de er tilbage af en ting             | 15 | <input type="text" size="35"> |
+| hvor mange procenter man får i rabat på en ting | 10.0 | <input type="text" size="35"> |
+| Hvilken kategori en ting tilhører               | "Electronics" | <input type="text" size="35"> |
 
 <details>
 <summary>Se svar</summary>
@@ -390,23 +393,22 @@ String category = "Electronics";
 
 ---
 
-### Opgave 12: Student grade system
-**Scenario:** Track student grades
+### Opgave 12: Karaktersystem
+**Scenario:** Her ser du nogle værdier fra et karaktersystem på en skole. Du skal give værdierne navne.
 
 **Opgave:**
 Erklær og initialiser variable med GODE navne til:
 
-| <!-- --> | Værdi | Dit variabelnavn og værdi |
-|----------|-------|---------------------------|
-| Student name | "Anna" | <input type="text" size="35"> |
-| Test score | 85 | <input type="text" size="35"> |
-| Homework score | 92 | <input type="text" size="35"> |
-| Final grade (average) | 88.5 | <input type="text" size="35"> |
-| Passed course | true | <input type="text" size="35"> |
+| Beskrivelse | Værdi | Dit variabelnavn og værdi |
+|-------------|-------|---------------------------|
+| en elevs navn | "Anna" | <input type="text" size="35"> |
+| point fra en prøve | 85 | <input type="text" size="35"> |
+| point fra afleveringer | 92 | <input type="text" size="35"> |
+| den endelige karakter (gennemsnit) | 88.5 | <input type="text" size="35"> |
+| om eleven har bestået kurset | true | <input type="text" size="35"> |
 
 <details>
 <summary>Se svar</summary>
-
 ```java
 String studentName = "Anna";
 int testScore = 85;
@@ -418,24 +420,23 @@ boolean passedCourse = true;
 
 ---
 
-### Opgave 13: Booking system
-**Scenario:** Hotel room booking
+### Opgave 13: Bookingsystem
+**Scenario:** Her ser du nogle værdier fra et hotels bookingsystem. Du skal give værdierne navne.
 
 **Opgave:**
 Erklær og initialiser variable med GODE navne til:
 
-| <!-- --> | Værdi | Dit variabelnavn og værdi |
-|----------|-------|---------------------------|
-| Guest name | "Peter Hansen" | <input type="text" size="35"> |
-| Room number | 204 | <input type="text" size="35"> |
-| Number of nights | 3 | <input type="text" size="35"> |
-| Price per night | 899.00 | <input type="text" size="35"> |
-| Has breakfast | true | <input type="text" size="35"> |
-| Total cost | 2697.00 | <input type="text" size="35"> |
+| Beskrivelse | Værdi | Dit variabelnavn og værdi |
+|-------------|-------|---------------------------|
+| en gæsts navn | "Peter Hansen" | <input type="text" size="35"> |
+| hvilket værelse gæsten bor på | 204 | <input type="text" size="35"> |
+| hvor mange nætter gæsten skal bo | 3 | <input type="text" size="35"> |
+| hvad én overnatning koster | 899.00 | <input type="text" size="35"> |
+| om morgenmad er inkluderet | true | <input type="text" size="35"> |
+| hvad gæsten skal betale i alt | 2697.00 | <input type="text" size="35"> |
 
 <details>
 <summary>Se svar</summary>
-
 ```java
 String guestName = "Peter Hansen";
 int roomNumber = 204;
@@ -448,23 +449,22 @@ double totalCost = 2697.00;
 
 ---
 
-### Opgave 14: Fitness tracker
-**Scenario:** Daily activity tracking
+### Opgave 14: Fitness-tracker
+**Scenario:** Her ser du nogle værdier fra en fitness-app, der registrerer daglig aktivitet. Du skal give værdierne navne.
 
 **Opgave:**
 Erklær og initialiser variable med GODE navne til:
 
-| <!-- --> | Værdi | Dit variabelnavn og værdi |
-|----------|-------|---------------------------|
-| Steps walked today | 8547 | <input type="text" size="35"> |
-| Goal steps | 10000 | <input type="text" size="35"> |
-| Distance in km | 6.2 | <input type="text" size="35"> |
-| Calories burned | 420 | <input type="text" size="35"> |
-| Goal reached | false | <input type="text" size="35"> |
+| Beskrivelse | Værdi | Dit variabelnavn og værdi |
+|-------------|-------|---------------------------|
+| hvor mange skridt man har gået i dag | 8547 | <input type="text" size="35"> |
+| hvor mange skridt man gerne vil gå | 10000 | <input type="text" size="35"> |
+| hvor langt man har gået i kilometer | 6.2 | <input type="text" size="35"> |
+| hvor mange kalorier man har forbrændt | 420 | <input type="text" size="35"> |
+| om man har nået sit mål | false | <input type="text" size="35"> |
 
 <details>
 <summary>Se svar</summary>
-
 ```java
 int stepsToday = 8547;
 int goalSteps = 10000;
@@ -476,30 +476,29 @@ boolean goalReached = false;
 
 ---
 
-### Opgave 15: Complete naming exercise
-**Scenario:** Library system - track book information
+### Opgave 15: Bibliotekssystem
+**Scenario:** Her ser du beskrivelser af data fra et bibliotekssystem. Du skal finde på gode variabelnavne.
 
 **Opgave:**
 Erklær variable med PERFEKTE navne til at gemme:
 
-| <!-- --> | Dit variabelnavn |
-|----------|------------------|
-| Book title | <input type="text" size="35"> |
-| Author name | <input type="text" size="35"> |
-| ISBN number | <input type="text" size="35"> |
-| Number of pages | <input type="text" size="35"> |
-| Is available for borrowing | <input type="text" size="35"> |
-| Current borrower (if any) | <input type="text" size="35"> |
-| Due date | <input type="text" size="35"> |
-| Fine amount if overdue | <input type="text" size="35"> |
-| Is bestseller | <input type="text" size="35"> |
-| Rating (0.0-5.0) | <input type="text" size="35"> |
+| Beskrivelse | Dit variabelnavn |
+|-------------|------------------|
+| en bogs titel | <input type="text" size="35"> |
+| forfatterens navn | <input type="text" size="35"> |
+| bogens ISBN-nummer | <input type="text" size="35"> |
+| hvor mange sider bogen har | <input type="text" size="35"> |
+| om bogen kan lånes lige nu | <input type="text" size="35"> |
+| hvem der har lånt bogen (hvis nogen) | <input type="text" size="35"> |
+| hvornår bogen skal afleveres | <input type="text" size="35"> |
+| hvor meget man skal betale i gebyr hvis bogen er forsinket | <input type="text" size="35"> |
+| om bogen er en bestseller | <input type="text" size="35"> |
+| bogens bedømmelse (fra 0.0 til 5.0) | <input type="text" size="35"> |
 
 Fokuser på at vælge de BEDST mulige navne!
 
 <details>
 <summary>Se svar</summary>
-
 ```java
 String bookTitle = "Java Programming";
 String authorName = "John Smith";
@@ -515,6 +514,8 @@ double rating = 4.5;
 </details>
 
 ---
+
+
 
 Kig på første iteration af [SP1 opgaven](https://1sem.kursusmaterialer.dk/projects/SP1/)
 
